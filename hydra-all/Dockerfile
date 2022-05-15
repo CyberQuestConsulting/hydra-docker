@@ -1,3 +1,7 @@
+# Copyright 2022 Steve Owens (Cyberquest Consulting)
+# Use of this software is restricted by proprietary license. 
+# Contact steveo98501@gmail.com for license info.
+
 # Build stage
 FROM --platform=linux/amd64 debian:11-slim AS builder
 

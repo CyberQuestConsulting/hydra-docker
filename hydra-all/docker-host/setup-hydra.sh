@@ -1,4 +1,8 @@
-# Copyright Steve Owens (Cyberquest Consulting)
+#!/bin/bash
+
+# Copyright 2022 Stephen Owens (Cyberquest Consulting). All rights reserved.
+# Use of this software is restricted by proprietary license. 
+# Contact steveo98501@gmail.com for license info.
 
 # The system secret can only be set against a fresh database. Key rotation is not supported. This
 # secret is used to encrypt the database and needs to be set to the same value every time the process (re-)starts.

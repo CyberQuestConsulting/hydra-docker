@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Copyright 2022 Stephen Owens (Cyberquest Consulting).  All rights reserved.
+# Use of this software is restricted by proprietary license. 
+# Contact steveo98501@gmail.com for license info.
+
 if [ -z "${HOST_HOSTNAME}" ]; then
    echo "Using defalt hostname"
    HOST_HOSTNAME=`hostname`

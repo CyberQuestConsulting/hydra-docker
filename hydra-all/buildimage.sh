@@ -1,5 +1,9 @@
 #/bin/bash
 
+# Copyright 2022 Stephen Owens (Cyberquest Consulting).  All rights reserved.
+# Use of this software is restricted by proprietary license. 
+# Contact steveo98501@gmail.com for license info.
+
 if [ -f bin-src/go1.18.2.linux-amd64.tar.gz ]; then
    echo "Already have go binary downloaded. Skipping download."
 else

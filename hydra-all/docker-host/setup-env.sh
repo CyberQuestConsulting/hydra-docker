@@ -1,8 +1,13 @@
+#!/bin/bash
+
+# Copyright 2022 Stephen Owens (Cyberquest Consulting). All rights reserved.
+# Use of this software is restricted by proprietary license. 
+# Contact steveo98501@gmail.com for license info.
+
 # The system secret can only be set against a fresh database. Key rotation is not supported. This
 # secret is used to encrypt the database and needs to be set to the same value every time the process (re-)starts.
 # You can use /dev/urandom to generate a secret. But make sure that the secret must be the same anytime you define it.
 # You could, for example, store the value somewhere.
-
 
 generate_password() {
   result=`head -c 32 /dev/urandom | base64 | tr '/+' '_-' | tr -d '='`
